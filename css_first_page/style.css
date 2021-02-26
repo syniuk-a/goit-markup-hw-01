@@ -5,3 +5,121 @@
 .ul {
   list-style-type: none;
 }
+.font-style {
+  font-family: Roboto;
+  text-decoration: none;
+}
+
+/*==========Стили для Головы===========*/
+.header-links > li {
+  text-decoration: none;
+  color: #000000;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*=======LOGO=========*/
+.logo-first {
+  color: #2196f3;
+}
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+/*========= MAIN============*/
+
+/*========== HERO HEDER =======*/
+.font-hero-header {
+  background-color: #2f303a;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+/*Эфективные рещения для вашего бизнеса*/
+.text-hero-header {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*button*/
+.main-button-style {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*=====SECOND SRCTION ОСОБЕННОСТИ======*/
+.second-section {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.second-item {
+  display: inline;
+}
+
+/*=====THREE SECTION чем занимаемся ======*/
+.three-cection {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+.section-page > li {
+  display: inline;
+}
+
+/*=======FOR SECTION команда====*/
+.for-section {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+
+/*======= FOOTER========*/
+.basement {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}

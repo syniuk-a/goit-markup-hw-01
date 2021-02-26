@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
+<!--Индекс первая страница-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css_first_page/style.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css_first_page/style.css">
     <title> Web Studio </title>
 </head>
 
 
-<body>
-    <header>
-        <nav>
-            <!--ссылка на логотип.
-                        нужно вставить и обернуть текс логотипа-->
+<body class="font-style">
+    <header class="top-line">
+        <nav class="navigate-link">
+            <!--ссылка на логотип-->
             <a lang="en" href="#top" rel="noopener noreferrer">
-                <p><span>Web</span>Studio</p>
+                <p class="logo"><span class="logo-first">Web</span>Studio</p>
             </a>
             <!--шапка навигации-->
-            <ul class="header-link">
+            <ul class="header-links">
                 <li>
                     <a class="header-link" href="Студия">Студия</a>
                 </li>
@@ -30,34 +35,37 @@
                 </li>
             </ul>
         </nav>
+        <div class="contact-link">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 (096) 11 11 111</a>           
+            <a href="tel:+380961111111">+38 (096) 11 11 111</a>
+        </div>
+
     </header>
 
     <main>
         <!--Hero header-->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="font-hero-header">
+            <h1 class="text-hero-header">Эффективные решения для вашего бизнеса</h1>
+            <button class="main-button-style" type="button">Заказать услугу</button>
         </section>
 
         <!--Особенности-->
-        <section>
+        <section class="second-section">
             <h2 hidden> Особенности </h2>
-            <ul>
-                <li>
+            <ul class="second-item">
+                <li class="second-item">
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="second-item">
                     <h3>Пунктуальность</h3>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="second-item">
                     <h3>Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="second-item">
                     <h3>Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -65,9 +73,9 @@
         </section>
 
         <!--Чем занимаемся-->
-        <section>
+        <section class="three-cection">
             <h2>Чем мы занимаемся</h2>
-            <ul>
+            <ul class="section-page">
                 <li>
                     <img src="./IMG/what-do/box-1.png" alt="box-1" width="370" height="294">
                 </li>
@@ -81,7 +89,7 @@
         </section>
 
         <!--Команда-->
-        <section>
+        <section class="for-section">
             <h2>Наша команда</h2>
             <ul>
                 <li>
@@ -90,7 +98,7 @@
                     <p>Product Designer</p>
                 </li>
                 <li>
-                <img src=".//IMG/team/olga_repina.jpg" alt="olga_repina" width="270" height="260">
+                    <img src=".//IMG/team/olga_repina.jpg" alt="olga_repina" width="270" height="260">
                     <h3>Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </li>
@@ -108,7 +116,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="basement">
         <section>
             <!--Контактная информация-->
             <h2 hidden> Контакты</h2>
@@ -120,7 +128,8 @@
             <address>
                 <ul>
                     <li>
-                        <a href="https://goo.gl/maps/Bj5NZJTDuqSYe3zM9" target="_blank" rel="noopener noreferrer"> г.Киев, пр-т
+                        <a href="https://goo.gl/maps/Bj5NZJTDuqSYe3zM9" target="_blank" rel="noopener noreferrer">
+                            г.Киев, пр-т
                             Леси Украинки, 26
                         </a>
                     </li>
@@ -134,6 +143,7 @@
             </address>
         </section>
     </footer>
-    
+
 </body>
+
 </html>
