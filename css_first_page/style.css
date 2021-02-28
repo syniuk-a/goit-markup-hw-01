@@ -2,18 +2,20 @@
   padding: 0;
   margin: 0;
 }
+:root {
+  --main-font: 'Roboto';
+  --accent-color: '#2196f3';
+}
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
 }
-.font-style {
-  font-family: Roboto;
-}
 
 /*==========Стили для Головы===========*/
 .navigation-link {
+  font-style: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -114,6 +116,7 @@
 ==== HERO HEADER =====*/
 /*=====SECOND SRCTION ОСОБЕННОСТИ======*/
 .second-section {
+  position: absolute;
   width: 1170px;
   height: 101px;
   left: 215px;
@@ -122,6 +125,7 @@
 
 /*=====THREE SECTION чем занимаемся ======*/
 .three-cection {
+  position: absolute;
   width: 1170px;
   height: 386px;
   left: 215px;
@@ -130,6 +134,7 @@
 
 /*=======FOR SECTION команда====*/
 .for-section {
+  position: absolute;
   width: 1600px;
   height: 648px;
   left: 0px;
@@ -138,6 +143,7 @@
 
 /*======= FOOTER========*/
 .basement {
+  position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
