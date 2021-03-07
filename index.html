@@ -18,56 +18,60 @@
 
 
 <body class="font-style">
-    <header class="top-line">
+    <header class="header-line">
         <nav class="navigation">
             <!--ссылка на логотип-->
-            <a lang="en" href="#top" rel="noopener noreferrer">
-                <p class="logo"><span class="logo-first">Web</span>Studio</p>
-            </a>
+            <div class="header-logo">
+                <a lang="en" href="#top" rel="noopener noreferrer">
+                    <p class="logo"><span class="logo-first">Web</span>Studio</p>
+                </a>
+            </div>
             <!--шапка навигации-->
-            <ul class="navigation-list list">
-                <li class="navigation-item">
-                    <a class="navigation-link link" href="Студия">Студия</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link link" href="Портфолио">Портфолио</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link link" href="Контакты">Контакты</a>
-                </li>
-            </ul>
+            <div class="navigation-form">
+                <ul class="navigation-list list">
+                    <li class="navigation-item">
+                        <a class="navigation-link link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link link" href="Контакты">Контакты</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <div>
+        <div class="kontakt-line">
             <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a class="tel-link link" href="tel:+380961111111">+38 (096) 11 11 111</a>
         </div>
-
     </header>
 
     <main>
         <!--Hero header-->
         <section class="font-hero-header">
-            <h1 class="text-hero-header">Эффективные решения для вашего бизнеса</h1>
-            <button class="main-button-style" type="button">Заказать услугу</button>
+            <h1 class="text-hero-header">Эффективные решения <p>для вашего бизнеса</p>
+            </h1>
+            <button class="main-btn" type="button">Заказать услугу</button>
         </section>
 
         <!--Особенности-->
-        <section class="second-section">
+        <section class="features">
             <h2 hidden> Особенности </h2>
-            <ul class="second-item">
-                <li class="second-item">
+            <ul class="features-link list">
+                <li class="features-link link">
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="second-item">
+                <li class="features-link link">
                     <h3>Пунктуальность</h3>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li class="second-item">
+                <li class="features-link link">
                     <h3>Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li class="second-item">
+                <li class="features-link link">
                     <h3>Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -75,41 +79,41 @@
         </section>
 
         <!--Чем занимаемся-->
-        <section class="three-cection">
+        <section class="doing">
             <h2>Чем мы занимаемся</h2>
-            <ul class="section-page">
-                <li>
+            <ul class="doing-img link list">
+                <li class="doing-link link">
                     <img src="./IMG/what-do/box-1.png" alt="box-1" width="370" height="294">
                 </li>
-                <li>
+                <li class="doing-link link">
                     <img src=".//IMG/what-do/box-2.png" alt="box-2" width="370" height="294">
                 </li>
-                <li>
+                <li class="doing-link link">
                     <img src=".//IMG/what-do/box-3.png" alt="box-3" width="370" height="294">
                 </li>
             </ul>
         </section>
 
         <!--Команда-->
-        <section class="for-section">
+        <section class="team">
             <h2>Наша команда</h2>
-            <ul class="section-page">
-                <li>
+            <ul class="team-link list">
+                <li class="team-link link">
                     <img src=".//IMG/team/igor_demjanenko.png" alt="igor_demijanenko" width="270" height="260">
                     <h3>Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </li>
-                <li>
+                <li class="team-link link">
                     <img src=".//IMG/team/olga_repina.jpg" alt="olga_repina" width="270" height="260">
                     <h3>Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </li>
-                <li>
+                <li class="team-link link">
                     <img src="./IMG/team/nikolay_tarasov.jpg" alt="nikolay_tarasov" width="270" height="260">
                     <h3>Николай Тарасов</h3>
                     <p>Marketing</p>
                 </li>
-                <li>
+                <li class="team-link link">
                     <img src="./IMG/team/mikhail_ermakov.jpg" alt="mikhail_ermakov" width="270" height="260">
                     <h3>Михаил Ермаков</h3>
                     <p>UI Designer</p>
@@ -124,7 +128,7 @@
             <h2 hidden> Контакты</h2>
             <nav>
                 <a lang="en" href="#top" rel="noopener noreferrer">
-                    <p><span>Web</span>Studio</p>
+                    <p class="logo logo-futer"><span class="logo-first">Web</span>Studio</p>
                 </a>
             </nav>
             <address>

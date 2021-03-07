@@ -1,10 +1,14 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 :root {
   --main-font: 'Roboto';
   --accent-color: '#2196f3';
+  --text-style: 'normal';
+}
+body {
+  font-style: var(--text-style);
 }
 .link {
   text-decoration: none;
@@ -13,7 +17,35 @@
   list-style: none;
 }
 
+/* cursor: pointer; */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+}
+img {
+  display: block;
+}
+.address {
+  font-style: normal;
+}
 /*==========Стили для Головы===========*/
+.navigation-form {
+  /* display: flex; */
+  position: absolute;
+  width: 294px;
+  height: 32px;
+  left: 453px;
+  top: 32px;
+}
 .navigation-link {
   font-style: var(--main-font);
   font-weight: 500;
@@ -21,23 +53,37 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.navigation-list {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navigation-item {
+  margin-right: 50px;
+}
+
 .navigation-link:hover,
 .navigation-link:focus {
   color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  /* text-transform: uppercase; */
+  margin-right: 50px;
 }
+
 .mail-link:hover,
 .mail-link:focus {
   color: #2196f3;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
 .tel-link {
   font-weight: 500;
@@ -46,15 +92,19 @@
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .tel-link:hover,
 .tel-link:focus {
   color: #2196f3;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
-
+.kontakt-line {
+  margin-left: 1078px;
+  margin-right: 215px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 /*=======LOGO=========*/
-.logo-first {
-  color: #2196f3;
-}
 .logo {
   position: absolute;
   width: 145px;
@@ -68,6 +118,16 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+}
+.logo-first {
+  color: #2196f3;
+}
+.logo-futer {
+  color: white;
+}
+.header-logo {
+  margin-right: 93px;
+  position: absolute;
 }
 
 /*========= MAIN============*/
@@ -90,9 +150,16 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  text-transform: uppercase;
+
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 200px;
 }
 /*button*/
-.main-button-style {
+.main-btn {
   width: 200px;
   height: 50px;
   left: 700px;
@@ -102,20 +169,32 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  position: absolute;
+  margin-top: 30px;
+}
+.main-btn:hover,
+.main-btn:focus {
+  box-shadow: 0px 4px 4px rgba(252, 252, 252, 1);
+  color: black;
 }
 
-/*  ======КНОПКИ НАВИГАЦИИ=======
+/*  ={
+
+}=====КНОПКИ НАВИГАЦИИ=======
 .navigation-btn:hover,
 .navigation-btn:focus {
   background-color: #2196f3;
   color: #ffffff;
 } */
 
-/* === MAIN ==== 
+/* === MAIN ====
 
 ==== HERO HEADER =====*/
 /*=====SECOND SRCTION ОСОБЕННОСТИ======*/
-.second-section {
+.features-link li {
+  display: inline;
+}
+.features {
   position: absolute;
   width: 1170px;
   height: 101px;
@@ -124,7 +203,10 @@
 }
 
 /*=====THREE SECTION чем занимаемся ======*/
-.three-cection {
+.doing-img > li {
+  display: inline;
+}
+.doing {
   position: absolute;
   width: 1170px;
   height: 386px;
@@ -133,12 +215,16 @@
 }
 
 /*=======FOR SECTION команда====*/
-.for-section {
+.team-link li {
+  display: inline;
+}
+.team {
   position: absolute;
   width: 1600px;
   height: 648px;
   left: 0px;
   top: 1449px;
+  background-color: rgba(245, 244, 250, 1);
 }
 
 /*======= FOOTER========*/
@@ -148,4 +234,10 @@
   height: 252px;
   left: 0px;
   top: 2097px;
+  background-color: rgba(47, 48, 58, 1);
 }
+
+/* ========TEST========= не работает. разобраться*/
+/* .team-link:nth-child(odd) {
+  border: 5px solid black;
+} */
